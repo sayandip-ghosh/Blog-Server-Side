@@ -20,14 +20,27 @@ Create a new branch for your contribution. Use a descriptive name for your branc
 ```bash
 git checkout -b feature/your-feature-name
 ```
-### 3. Make Changes
+
+### 3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+- Set up your `.env` file
+- Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+### 4. Make Changes
 Make your changes in the new branch. Follow these guidelines to ensure code quality:
 
 - Adhere to the existing coding style and conventions.
 - Write clear and concise commit messages.
 - Include comments where necessary for clarity.
 
-### 4. Commit and Push
+### 5. Commit and Push
 Once your changes are complete, commit them with a meaningful message and push them to your forked repository.
 
 ```bash
@@ -36,7 +49,7 @@ git commit -m "Add meaningful description of your changes"
 git push origin feature/your-feature-name
 ```
 
-### 5. Submit a Pull Request
+### 6. Submit a Pull Request
 Open a pull request to the main repository:
 
 - Go to the original repository on GitHub.
@@ -45,7 +58,7 @@ Open a pull request to the main repository:
 - Select your branch and provide a clear description of your changes.
 - Submit the pull request.
 
-### 6. Wait for Review
+### 7. Wait for Review
 A project maintainer will review your pull request. Be open to feedback and make any requested changes.
 
 We also have a discord channel.
